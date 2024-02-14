@@ -1,0 +1,40 @@
+.drop-area{
+    border: 2px dashed #ddd;
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    
+    .previewImage{
+        width: 100%;
+        display:flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    }
+
+.drop-area.active{
+    background-color: #ddd;
+    color: #000000;
+    border: 2px dashed blue;
+}
+.drop-area button{
+    background-color: blue;
+    color: #ffffff;
+    padding: 8px 15px;
+    text-align:center;
+    border:0px;
+    border-radius: 4px;
+    cursor: pointer;
+    border:2px solid blue;
+}
+.drop-area button:hover{
+    background-color: transparent;
+    color: blue;
+}
